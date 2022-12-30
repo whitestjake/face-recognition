@@ -70,7 +70,7 @@ class App extends Component {
   onButtonSubmit = () => {
     
     const USER_ID = 'whitestjake';
-    const PAT = '0b72755c9efe41b7a648297728c7bbd6';
+    const PAT = process.env.API_CLARIFAI;
     const APP_ID = 'face-detection';
     const MODEL_ID = 'face-detection';  
     const URL_INPUT = this.state.input
