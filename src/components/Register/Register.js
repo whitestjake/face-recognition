@@ -37,7 +37,7 @@ class Register extends React.Component {
                
             })
         })
-        .then(response => response.json())
+        //.then(response => response.json())
         .then(
             user => {
                 if (user.id) {
@@ -48,7 +48,6 @@ class Register extends React.Component {
                 } 
             }
         ) 
-  
     } 
 
 
