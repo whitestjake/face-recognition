@@ -25,7 +25,7 @@ class Register extends React.Component {
     }
 
     onSubmitSignIn = () => {
-        console.log(this.state.name)
+        
         fetch("https://morning-brushlands-83652.herokuapp.com/register", {
             method: 'post',
             mode: "no-cors",
