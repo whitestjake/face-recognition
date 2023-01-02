@@ -26,7 +26,7 @@ class Register extends React.Component {
     onSubmitSignIn = () => {
         fetch("https://morning-brushlands-83652.herokuapp.com/register", {
             method: 'POST',
-            //mode: "no-cors",
+            mode: "no-cors",
             headers: {'Content-Type': "application/json"},
             body: JSON.stringify({
                 email: this.state.email,
@@ -49,7 +49,6 @@ class Register extends React.Component {
     };
 
     render() {
-
         return (
             <article className="br3 ba b--black-10 mv4 w-100 w-50-m w-25-l mw6 shadow-5 center">
                 <main className="pa4 black-80">

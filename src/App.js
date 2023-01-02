@@ -8,6 +8,7 @@ import Particles from './components/Particles';
 import FaceRecognition from './components/FaceRecognition/FaceRecognition';
 import SignIn from './components/SignIn/SignIn';
 import Register from './components/Register/Register';
+//import cors from "cors";
 //  https://samples.clarifai.com/face-det.jpg
 
 const initialState = {
@@ -131,7 +132,6 @@ class App extends Component {
     this.setState({route: route});
   }
 
-
   render() { 
     const { isSignedIn, route, box, input } = this.state;
     return (
@@ -158,7 +158,6 @@ class App extends Component {
     );
   };
 }
-
 
 
 export default App;
