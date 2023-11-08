@@ -2,6 +2,9 @@ check out the launched product at https://whitestjake-smartbrain.herokuapp.com/ 
 
 (only reads image files, so if you are googling a photo make sure you copy the image link)
 
+register with whatever info you want, the email you use does not have to be real only has to follow email format
+such as... test@test.com
+
 or 
 
 1. clone this repo
